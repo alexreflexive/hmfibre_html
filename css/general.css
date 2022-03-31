@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#container {
+  width: 75%;
+  margin: 0 auto;
+  /* background: var(--container-bg); */
+  background: white;
+  min-height: 100vh;
+}
+
+header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  height: 18vh;
+}
+
+#logo {
+  display: flex;
+}
+#logo img {
+  width: 64px;
+  height: 64px;
+}
+
+#logo h1 {
+  /* font-family: "Press Start 2P", cursive; */
+  font-family: "Space Mono", monospace;
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  line-height: 64px;
+}
+
+#connexion {
+  margin-top: -1rem;
+}
+#connexion a {
+  text-decoration: none;
+  font-family: "Space Mono", monospace;
+  color: #555;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+}
+
+#connexion a:hover {
+  background: #555;
+  color: whitesmoke;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  height: 5vh;
+  background: rgba(50, 50, 50, 0.3);
+}
+
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Red Hat Mono", monospace;
+  font-size: 1.2rem;
+  height: 100%;
+  padding: 0 1rem;
+  line-height: 2.5rem;
+}
+
+nav a:hover {
+  color: #555;
+  background: var(--container-bg);
+}
+
+#accueil {
+  height: 77vh;
+}
+
+section {
+  min-height: 100vh;
+}
+
+/* TEXTES */
+.infotextes {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.infotextes h4 {
+  font-size: 1.5rem;
+}
+
+.infotextes p {
+  font-size: 1.2rem;
+}

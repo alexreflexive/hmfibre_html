@@ -1,0 +1,11 @@
+#mesure {
+  /* background: no-repeat url("../images/photo-5.jpg");
+  background-size: contain; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: end; */
+}
+
+/* #mesure div {
+  padding: 5rem 5rem 5rem 0;
+} */
