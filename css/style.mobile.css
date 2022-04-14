@@ -116,3 +116,11 @@ input {
 ::placeholder {
   font-size: 1.6rem;
 }
+
+#socialmedia {
+  width: 100%;
+}
+
+#socialmedia img {
+  width: 50px;
+}
