@@ -1,0 +1,118 @@
+hatml,
+body {
+  width: 100%;
+}
+
+#container {
+  width: 100%;
+  min-height: inherit;
+}
+
+#logo h1 {
+  display: none;
+}
+
+/* Navigation */
+
+nav {
+  /* flex-direction: column; */
+  display: block;
+  background: none;
+  position: static;
+}
+
+nav a {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 95%;
+  min-height: 5rem;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  vertical-align: middle;
+  font-size: 1.8rem;
+}
+
+section {
+  min-height: inherit;
+}
+
+/* Section Accueil */
+
+#accueil {
+  background-image: url("");
+  width: 100%;
+  height: inherit;
+}
+.accueil-panneaux {
+  width: 100%;
+}
+
+.panneau-texte {
+  width: 95%;
+}
+
+/* Section Soudure */
+
+#soudure {
+  min-height: inherit;
+}
+
+#soudureDroite {
+  display: none;
+}
+
+/* .soudure-panneaux {
+  flex: inherit;
+} */
+
+/* Section Tirage */
+
+#tirage {
+  background: none;
+}
+
+#tirageTexte {
+  width: inherit;
+}
+
+#pose {
+  display: block;
+}
+.photoNO,
+.photoNE,
+.photoSO {
+  display: none;
+}
+
+.infotextes {
+  width: 95%;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Section mesure */
+#mesure img {
+  display: none;
+}
+
+/* Formulaire */
+
+#formContainer {
+  padding: 1rem;
+}
+form {
+  width: 97%;
+  font-size: 2rem;
+}
+
+input {
+  height: 5rem;
+}
+
+::placeholder {
+  font-size: 1.6rem;
+}
